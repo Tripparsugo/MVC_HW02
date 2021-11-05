@@ -89,6 +89,7 @@ public class DayFragment extends Fragment {
         for (Map.Entry<String, Integer> entry : stepsByDay.entrySet())
             data.add(new ValueDataEntry(entry.getKey(), entry.getValue()));
 
+
         // 3. Add the data to column chart and get the columns
         Column column = cartesian.column(data);
 

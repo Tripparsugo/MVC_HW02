@@ -4,10 +4,10 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ui.report.HourFragment">
+    tools:context=".ui.report.DayFragment">
 
     <com.anychart.AnyChartView
-        android:id="@+id/hourBarChart"
+        android:id="@+id/dayBarChart"
         android:layout_width="match_parent"
         android:layout_height="300dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -34,7 +34,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="36dp"
         android:textColor="@color/colorWhite"
-        android:text="@string/hourly_report"
+        android:text="@string/daily_report"
         android:textSize="24sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
