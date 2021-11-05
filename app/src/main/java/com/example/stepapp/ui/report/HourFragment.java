@@ -80,8 +80,6 @@ public class HourFragment extends Fragment {
         DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
         Map<Integer, Integer> stepsByHour = StepAppOpenHelper.loadStepsByHour(getContext(), dtf.format(now));
-
-
         // TODO 2: Creating a new map that contains hours of the day from 0 to 23 and
         //  number of steps during each hour set to 0
         final Map<Integer, Integer> graphMap = new TreeMap<>(stepsByHour);
